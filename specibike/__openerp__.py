@@ -22,7 +22,7 @@
 	'name': "Specibike",
 	'version': '1.0',
 	'category': '',
-	'license': 'AGPL-3', # A VALIDER	
+	'license': 'AGPL-3',	
 	'description': """
 Module de donnees pour Specibike				
 ====================================
