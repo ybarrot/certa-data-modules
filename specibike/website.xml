@@ -28,19 +28,19 @@
         </record>
 
 	<record id="menu_database" model="website.menu">
-            <field name="name">Database</field>
+            <field name="name">Base de données</field>
             <field name="url">/web/database/manager</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">70</field>
         </record>
 	<record id="menu_manage_database" model="website.menu">
-            <field name="name">Manage Database</field>
+            <field name="name">Gérer les bases</field>
             <field name="url">/web/database/manager</field>
             <field name="parent_id" ref="menu_database"/>
             <field name="sequence" type="int">75</field>
         </record>	
 	<record id="menu_select_database" model="website.menu">
-            <field name="name">Select Database</field>
+            <field name="name">Changer de base</field>
             <field name="url">/web/database/selector</field>
             <field name="parent_id" ref="menu_database"/>
             <field name="sequence" type="int">80</field>

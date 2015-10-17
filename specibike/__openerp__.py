@@ -29,7 +29,11 @@ Module de donnees pour Specibike
 
 Ce module peut être installé sans aucun autre module préalable. Il appelle les modules nécessaires.
 
-Il comprend  :
+Pour l'installer il faut avoir créé une base de données vide en selectionnant Français comme langue par défaut.
+
+Toutes les dates dépendent de la date à laquelle est installé le module : cela s'applique en particulier aux opérations (devis, factures, ...) ainsi qu'à l'exercice en cours.
+
+Le module comprend  :
 --------------------------------------------
   * les données de base : utilisateurs, employés					
   * les produits, catégories ...
